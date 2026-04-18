@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <script>
+        let todoList = ["clean the house", "do the laundry", "buy groceries", "pay bills"];
+        let time = ["13:00", "14:00", "15:00", "16:00", "17:00"];
+        let schedule = todoList.concat(time);
+        alert(schedule);
+        let index2 = schedule.indexOf("buy groceries");
+        let schedulestring = schedule.join(" ");
+        console.log(schedulestring);
+    </script>
+</body>
+</html>

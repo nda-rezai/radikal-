@@ -1,0 +1,108 @@
+*{
+    font-family: 'Changa', sans-serif;
+}
+
+
+body {
+    background-color: #f1efef;
+    font-family: 'Changa', sans-serif;
+    padding-top: 56px; 
+}
+
+.menu {
+    background-color: #15004c;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #15004c;
+}
+.menu ul li {
+    list-style: none;
+    display: list-item;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    background-color: #2d1861;
+    transition: ease-in-out 0.3s;
+}
+
+.top-menu {
+    background-color: #f1efef;
+    color: #15004c;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    border-color: #959191;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+button {
+    color: white;
+    background-color: #15004c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #2d1861;
+    transition: ease-in-out 0.3s;
+}
+
+h1 {
+    color: #15004c;
+    margin-top: 0%;
+    position: absolute;
+    right: 0%;
+    font-size: 500%;
+    animation: forwards 1s ease-in-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-10%);
+    }
+}
+
+img {
+    width: 15%;
+    height: auto;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 200%;
+}
